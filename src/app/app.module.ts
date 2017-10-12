@@ -4,13 +4,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
-import { UserComponent } from './components/user/user.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    UserComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +16,6 @@ import { UserComponent } from './components/user/user.component';
     NgbModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
