@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  name = '경환';
+  title = '경환';
   constructor() { }
 
   ngOnInit() {
