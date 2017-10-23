@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  myState = 'AZ';
+  states = [{code: 'AL', name: 'Alabama'}];
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  
 }
